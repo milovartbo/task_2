@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  font-size: 15px;
+}
+
+
+.menu {
+  background: #333;
+}
+.menu a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-right: 1px solid #555;
+}
+.menu .active {
+  background: #4caf50;
+}
+
+.page {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.gallery {
+  margin-top: 8px;
+}
+.gallery img,
+.gallery-right {
+  display: inline-block;
+  vertical-align: top;     
+}
+.gallery .big {
+  width: 33.33%;
+  height: 400px;
+}
+.gallery-right {
+  width: 66.67%;
+}
+.gallery-right img {
+  display: inline-block;
+  vertical-align: top;
+  height: 133.5px;
+}
+.gallery-right .wide { 
+   width: 100%; 
+  }
+.gallery-right .half { 
+  width: 50%; 
+}
+
+.cards {
+  margin: 8px 0;
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  vertical-align: top;
+  width: 19%;
+  text-align: center;
+}
+.card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.card h3, .card p {
+  margin: 2px 0;
+  font-size: 14px;
+}
+
+.btn {
+  background: #4a90e2;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+h2 {
+  margin: 4px 0;
+  font-size: 18px;
+}
+p {
+  margin: 4px 0;
+}
+
+.block1 {
+  margin: 8px 0;
+}
+.block1 .text {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  text-align: right;
+}
+.block1 img {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  height: 90px;
+  margin-left: 3%;
+}
+.right {
+  text-align: right;
+}
+
+.block2 {
+  border: 1px solid #999;
+  padding: 8px;
+}
+.block2 h2 {
+  text-align: center;
+}
+.block2 .col {
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+  margin-right: 2%;
+}
+.block2 img {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  height: 90px;
+}
+
+.block3 {
+  margin: 8px 0;
+}
+.block3 img {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  height: 90px;
+}
+.block3 .text {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  margin-left: 3%;
+}
